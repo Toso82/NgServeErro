@@ -28,9 +28,21 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/jquery-ui/themes/base/all.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/jquery-ui/ui/widgets/datepicker.js",
+              "./node_modules/jquery-ui/ui/i18n/datepicker-it.js",
+              "./node_modules/jquery-ui/ui/effect.js",
+              "./node_modules/jquery-ui/ui/widget.js",
+              "./node_modules/jquery-ui/ui/unique-id.js",
+              "./node_modules/jquery-ui/ui/widgets/mouse.js",
+              "./node_modules/jquery-ui/ui/widgets/slider.js",
+              "./node_modules/jquery-ui/ui/widgets/button.js",
+              "./node_modules/jquery-ui/ui/widgets/tabs.js"
+            ]
           },
           "configurations": {
             "production": {

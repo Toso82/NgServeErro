@@ -1,5 +1,5 @@
-import { Component, AfterViewInit } from '@angular/core';
-import * as $ from 'jquery';
+import { Component, AfterViewInit, AfterContentInit } from '@angular/core';
+
 
 
 @Component({
@@ -7,12 +7,13 @@ import * as $ from 'jquery';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements AfterViewInit {
+export class AppComponent implements AfterContentInit {
   title = 'NgServeError';
 
 
-  ngAfterViewInit() {
-   
+  ngAfterContentInit() {
+    //Called after ngOnInit when the component's or directive's content has been initialized.
+    //Add 'implements AfterContentInit' to the class.
     $('#tabs').tabs();
-  }
+  } 
 }

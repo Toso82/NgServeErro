@@ -1,4 +1,4 @@
-![](https://david-dm.org/Toso82/NgServeErro.svg)
+![](https://david-dm.org/Toso82/NgServeErro.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/Toso82/NgServeErro)
 
 
 # NgServeError

@@ -1,2 +1,0 @@
-- name: npm update checker
-  uses: MeilCli/npm-update-check-action@v1
